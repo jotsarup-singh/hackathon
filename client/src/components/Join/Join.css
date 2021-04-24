@@ -1,0 +1,93 @@
+html, body {
+  
+  padding: 0;
+  margin: 0;
+  
+}
+.heading{
+  text-align: center;
+  margin:0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url('../../images/st2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  /* background-color: #1A1A1D; */
+}
+
+.joinInnerContainer {
+  border: 1px solid;
+  padding: 30px;
+  margin: 20vh auto;
+  width: 20%;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.joinInnerContainer *{
+  margin:7px;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
